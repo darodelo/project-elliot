@@ -1,0 +1,66 @@
+.background-company {
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.title-company {
+    font-size: 4rem;
+    margin-bottom: 1%;
+}
+
+.company-paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2%;
+}
+
+.company-cards {
+    margin-top: 2%;
+}
+
+.company-img {
+
+}
+
+.company-headline {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.company-description {
+    margin-left: 33%;
+    margin-right: 33%;
+
+}
+
+
+/* MOBILE CSS */
+
+
+
+.company-paragraph-mobile {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.company-mobile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+
+.company-description-mobile {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+
+}

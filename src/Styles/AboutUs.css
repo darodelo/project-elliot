@@ -1,0 +1,32 @@
+.background-about {
+    background-color: white;
+    background-size:100% ;
+}
+
+.title-aboutus {
+    font-size: 4rem;
+}
+
+.members {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    padding: 1em;
+    background-color: #fff;
+}
+
+.members-card {
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.members-img {
+    width: 90%;
+    height: 200px;
+}
+
+.members-name {
+    text-align: center;
+}
