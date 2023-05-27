@@ -7,6 +7,7 @@ const Navbar = () => {
   return (
 
     <nav className='nav-background'>
+
       <ul>
         <li className='navBar'>
           <a className="nav-link" href="welcome-home">Home</a>
