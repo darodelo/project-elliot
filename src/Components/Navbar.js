@@ -8,6 +8,11 @@ const Navbar = () => {
 
     <nav className='nav-background'>
 
+      <div>
+        <img className="nav-logo" src="./images/elliott-consulting-logo.png" alt="Elliot Consulting Logo" />
+
+      </div>
+
       <ul>
         <li className='navBar'>
           <a className="nav-link" href="welcome-home">Home</a>

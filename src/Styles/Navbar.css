@@ -1,4 +1,6 @@
 .nav-background {
+    display: grid;
+    grid-template-columns: 150px 1fr;
     background-color: white;
     padding: 0.2em 2em;
     margin-bottom: 4em;
@@ -25,4 +27,12 @@
 }
 .nav-link {
     color: black;
+}
+
+.nav-logo {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
 }
