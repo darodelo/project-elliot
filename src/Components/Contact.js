@@ -21,7 +21,7 @@ const Contact = () => {
               alt="Elliot Consulting Logo"
               height="50px"
             />
-        
+      
           </div>
         </a>
         <div className="contact-SocialNetworks">
