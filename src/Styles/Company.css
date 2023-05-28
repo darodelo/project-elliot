@@ -11,6 +11,7 @@
 .company-paragraph {
     margin-left: 10%;
     margin-right: 10%;
+    text-align: left;
 }
 
 .company {
@@ -28,39 +29,50 @@
 
 }
 
-.company-headline {
+.company-card-headline {
     margin-top: 1%;
     margin-bottom: 2%;
 }
 
-.company-description {
-    margin-left: 33%;
-    margin-right: 33%;
-
+.company-card-description {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
 }
 
 
 /* MOBILE CSS */
 
-
+.title-company-mobile {
+    font-size: 4rem;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
 
 .company-paragraph-mobile {
     margin-left: 10%;
     margin-right: 10%;
+    text-align: left;
 }
 
 .company-mobile {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     flex-direction: column;
     margin-top: 2%;
 }
 
+.company-cards-mobile {
+    margin-top: 2%;
+    align-self: flex-start;
+}
 
-.company-description-mobile {
-    margin-left: 20%;
-    margin-right: 20%;
+.company-card-description-mobile {
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 3%;
-
+    text-align: left;
 }

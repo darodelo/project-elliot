@@ -8,7 +8,7 @@ import React from "react";
 const Company = () => {
   return (
     <div className="background-company">
-      <h2 id="company" className="title-company">
+      <h2 id="company" className="title-company-mobile">
         Company
       </h2>
       <div className="company-paragraph-mobile">
@@ -30,10 +30,10 @@ const Company = () => {
       </div>
       <div className="company-mobile">
           {COMPANYCARD.map((company) => (
-            <div className="company-cards" key={company.Id}>
+            <div className="company-cards-mobile" key={company.Id}>
               <p className="material-icons">{company.Img}</p>
-              <h3 className="company-headline">{company.Headline}</h3>
-              <p className="company-description-mobile">{company.Description}</p>
+              <h3 className="company-card-headline">{company.Headline}</h3>
+              <p className="company-card-description-mobile">{company.Description}</p>
             </div>
           ))}
         </div> 

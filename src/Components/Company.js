@@ -32,8 +32,8 @@ const Company = () => {
           {COMPANYCARD.map((company) => (
             <div className="company-cards" key={company.Id}>
               <p className="material-icons">{company.Img}</p>
-              <h3 className="company-headline">{company.Headline}</h3>
-              <p className="company-description">{company.Description}</p>
+              <h3 className="company-card-headline">{company.Headline}</h3>
+              <p className="company-card-description">{company.Description}</p>
             </div>
           ))}
         </div> 

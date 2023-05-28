@@ -19,12 +19,12 @@
     width: 100%;
     background-color: #fff;
     flex-direction: column;
-    border-radius: 30px;
 }
 
 .members-img {
     width: 90%;
     height: 200px;
+    border-radius: 50px;
 }
 
 .members-name {

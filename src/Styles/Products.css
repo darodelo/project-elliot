@@ -11,8 +11,8 @@
 
 .products {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 .products-card {
@@ -31,26 +31,44 @@
 }
 
 .products-description {
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 25%;
+    margin-right: 25%;
 
 }
 
 
 /* MOBILE CSS */
 
+.title-products-mobile {
+    font-size: 4rem;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.products-paragraph-mobile {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
 
 .products-mobile {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     flex-direction: column;
-    
+    margin-top: 2%;
 }
 
+.products-cards-mobile {
+    margin-top: 2%;
+    align-self: flex-start;
+}
 
-.products-description-mobile {
-    margin-left: 20%;
-    margin-right: 20%;
-
+.products-card-description-mobile {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    text-align: left;
 }

@@ -12,7 +12,7 @@ const AboutUs = () => {
           {TEAMMEMBERS.map((member) => (
             <div className="members-card" key={member.Id}>
               <img className="members-img" src={member.Img} alt={member.Alt} />
-              <p className="members-name">{member.Name}</p>
+              <h3 className="members-name">{member.Name}</h3>
               <p className="members-description">{member.Description}</p>
             </div>
           ))}
